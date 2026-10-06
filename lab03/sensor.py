@@ -21,8 +21,3 @@ if valid > 0:
     average = total / valid
 else:
     average = 0
-print(n)
-print(errors)
-print(above)
-print(maximum)
-print(average)
