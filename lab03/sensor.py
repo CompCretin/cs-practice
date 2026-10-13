@@ -21,3 +21,8 @@ if valid > 0:
     average = total / valid
 else:
     average = 0
+print(n)
+print(errors)
+print(above)
+print(round(maximum, 1) if maximum is not None else 0.0)
+print(round(average, 1))
