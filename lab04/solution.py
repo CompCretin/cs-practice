@@ -12,7 +12,7 @@ def average(scores: list[float]) -> float:
         total = total + score
     if len(scores) == 0:
         return 0.0
-    return total / len(scores)
+    return round(total / len(scores), 2)
 def ranking(names: list[str], scores: list[float]) -> list[str]:
     result = []
     used = []
