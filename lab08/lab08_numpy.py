@@ -73,6 +73,7 @@ small_matrix[0, :] = -1
 small_matrix[1:, 1:] = 9
 print(small_matrix)
 
+# copy() создаёт независимую копию массива, поэтому изменения не затрагивают исходный hours.
 changed_hours = hours.copy()
 print(changed_hours)
 
@@ -102,3 +103,5 @@ print(transposed)
 print(numbers.shape)
 print(table.shape)
 print(transposed.shape)
+# reshape(3, 4) работает, потому что в массиве 12 элементов, а 3 * 4 = 12.
+# reshape(5, 3) вызовет ошибку, потому что 5 * 3 = 15, а в исходном массиве только 12 элементов.
